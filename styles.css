@@ -1,0 +1,154 @@
+
+body {
+	background-image: url('https://images.mixer.com/sGx2ttbm-yNRhpmU6tIXTlYmrIX0p-KZXtMICwFgM07Q/https://media.giphy.com/media/SUj2bzYiaMcqIOCVRr/giphy.gif');
+	background-size: 200px 200px;
+}
+#titlehd{
+  height: 100px;
+  width: 1000px;
+  margin: 10px auto;
+  background-color: #4CAF50;
+   -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  box-shadow: 5px 5px 5px 4px;
+}
+#tiphd{
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Arial"
+
+}
+#Calc {
+	height: 600px;
+  width: 1000px;
+  margin: 20px auto;
+  background: #F7DC6F;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  box-shadow: 10px 10px 8px;
+}
+
+.center {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input{
+  margin-top: 30px;
+  font-size: 40px;
+  text-align: center;
+  padding: 13px 13px 20px 20px;
+}
+input[type=number], select {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  box-shadow: 5px 5px 5px 4px;
+}
+
+.big {
+  font-size: 40px;
+  text-align: center;
+}
+select{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#serviceQual {
+  padding: 13px 13px 20px 20px;
+  font-size: 25px;
+  text-align: center;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  box-shadow: 5px 5px 5px 4px;
+}
+#spacer {
+  width: auto;
+  height: 50px;
+}
+
+.button {
+  width: 300px;
+  height: 100px;
+  font-weight: bold;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 40px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+.button:active{
+   background-image:     linear-gradient(
+      to right, 
+      #E7484F,
+      #E7484F 16.65%,
+      #F68B1D 16.65%,
+      #F68B1D 33.3%,
+      #FCED00 33.3%,
+      #FCED00 49.95%,
+      #009E4F 49.95%,
+      #009E4F 66.6%,
+      #00AAC3 66.6%,
+      #00AAC3 83.25%,
+      #732982 83.25%,
+      #732982 100%,
+      #E7484F 100%
+    );
+  animation:slidebg 2s linear infinite;
+}
+
+
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#totalTip sup {
+  font-size: 30px;
+  top: 18px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#totalTip small {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+#tip {
+   font-size: 50px;
+   font-weight: bold;
+   font-family: "Impact"
+
+}
+.links{
+   font-size: 50px;
+   font-weight: bold;
+   font-family: "Impact" 
+ }
