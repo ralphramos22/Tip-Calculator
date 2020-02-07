@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tip Generator</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="titlehd" class="center"><h1 id="tiphd" >Tipping Calculator</h1>
+  </div>
+	<div id="container">
+		<div id="Calc"><style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+ 
+}
+</style>
+</head>
+<body>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'calcpg')">Calculator</button>
+  <button class="tablinks" onclick="openCity(event, 'addlink')">Info on how much to tip</button>
+
+</div>
+
+<div id="calcpg" class="tabcontent">
+  <form class="big center" id="fmcst">
+          $<input id="billcst" type="number" placeholder="Enter Cost of Bill" min="0" >
+  </form>
+  <div id="spacer"></div>
+  <select id="serviceQual">
+            <option disabled selected value="0">-- Select Percentage to Tip --</option>
+            <option value="0.05">5&#37;</option>
+            <option value="0.1">10&#37;</option>
+            <option value="0.15">15&#37;</option>
+            <option value="0.18">18&#37;</option>
+            <option value="0.2">20&#37;</option>
+            <option value="0.25">25&#37;</option>
+            <option value="0.3">30&#37;</option>
+            <option value="0.4">40&#37;</option>
+            <option value="0.5">50&#37;</option>
+  </select> 
+  <div id="spacer"></div>
+   <div  class="center"><button type="cbutton" class="button" id="calculate">Calculate</button>
+   </div>
+  <div id="spacer"></div>
+     <div id="totalTip">
+      <sup class="center">How Much to Tip:</sup><span id="tip" class="center">$0.00</span>
+      <small id="each">each</small>
+  </div>
+</div>
+<script type="text/javascript"  src="script.js"></script>
+
+<div id="addlink" class="tabcontent">
+      <a href=" https://money.cnn.com/pf/features/lists/tipping/" target="_blank" class="center links">Types of Services to tip</a>
+      <div id="spacer"></div>
+      <a href=" https://www.businessinsider.com/easy-ways-calculate-tip-fast-2014-10" target="_blank" class="center links">Info on Tipping</a>
+      
+</div>
+
+</body>
+</html>
